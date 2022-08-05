@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Royal;
+    src: url("RoyalFlush.ttf");
+}
+@font-face {
+    font-family: BlackJack;
+    src: url("BLACKJAC.TTF");
+}
+body{
+    font-family: BlackJack, sans-serif;
+    text-align: center;
+    background-image: url("images/table.png");
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1 {
+    color: goldenrod;
+}
+h4{
+    font-family: Royal, sans-serif;
+    color: black;
+    font-size: 40px;
+}
+#message-el{
+    font-style: italic;
+}
+button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
